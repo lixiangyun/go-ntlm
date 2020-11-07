@@ -2,7 +2,7 @@
 package ntlm
 
 import (
-	"ntlm/messages"
+	"github.com/lixiangyun/go-ntlm/messages"
 )
 
 // Define KXKEY(SessionBaseKey, LmChallengeResponse, ServerChallenge) as

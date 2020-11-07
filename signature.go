@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 	"fmt"
-	"ntlm/messages"
+	"github.com/lixiangyun/go-ntlm/messages"
 )
 
 type NtlmsspMessageSignature struct {

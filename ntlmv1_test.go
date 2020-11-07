@@ -4,7 +4,7 @@ package ntlm
 import (
 	"bytes"
 	"encoding/hex"
-	"ntlm/messages"
+	"github.com/lixiangyun/go-ntlm/messages"
 	"testing"
 )
 

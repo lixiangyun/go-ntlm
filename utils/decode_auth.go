@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"flag"
 	"fmt"
-	"ntlm/messages"
+	"github.com/lixiangyun/go-ntlm/messages"
 )
 
 func main() {

@@ -4,10 +4,9 @@ package ntlm
 
 import (
 	"bytes"
-	l4g "code.google.com/p/log4go"
 	rc4P "crypto/rc4"
 	"errors"
-	"ntlm/messages"
+	"github.com/lixiangyun/go-ntlm/messages"
 	"strings"
 )
 
@@ -182,7 +181,6 @@ func (n *V1ServerSession) ProcessAuthenticateMessage(am *messages.Authenticate) 
 	// They should always be correct (I hope)
 	n.user = am.UserName.String()
 	n.userDomain = am.DomainName.String()
-	l4g.Info("(ProcessAuthenticateMessage)NTLM v1 User %s Domain %s", n.user, n.userDomain)
 
 	err = n.fetchResponseKeys()
 	if err != nil {

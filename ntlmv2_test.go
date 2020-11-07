@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"encoding/base64"
 	"encoding/hex"
-	"ntlm/messages"
+	"github.com/lixiangyun/go-ntlm/messages"
 	"strings"
 	"testing"
 	"time"

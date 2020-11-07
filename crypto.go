@@ -8,7 +8,7 @@ import (
 	"crypto/rand"
 	rc4P "crypto/rc4"
 	crc32P "hash/crc32"
-	md4P "ntlm/md4"
+	md4P "github.com/lixiangyun/go-ntlm/md4"
 )
 
 func md4(data []byte) []byte {
